@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    color: white;
+}
+
+.right {
+    display: flex;
+    gap: 16px;
+}
+
+.sub {
+    background-color: rgb(78, 74, 74);
+    color: white;
+}
+
+.menue {
+    margin-bottom: 30px;
+}
+
+.website {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+
+}
+
+.nato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.holder {
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    padding: 37px;
+}
+
+.subtext {
+    font-size: small;
+}
+
+.sign {
+    display: flex;
+    width: 70px;
+    background-color: blue;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.mid {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 3px solid blue;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.clip {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    /* flex-direction: row;*/
+    justify-content: center;
+    margin-bottom: 17px;
+
+}
+
+.info {
+    max-width: 150px;
+}
+
+.quote {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-style: italic;
+}
+
+.one {
+    max-width: 700px;
+
+}
+
+.text {
+    font-weight: bold;
+}
+
+.time {
+    display: flex;
+    background-color: rgb(83, 10, 252);
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 40px;
+    color: #f9faf8;
+    width: 700px;
+    border-radius: 10px;
+    margin: 80px 250px 70px;
+
+}
+
+.action {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 8px;
+    align-items: center;
+    height: 20px;
+    width: 90px;
+}
+
+.up {
+    font-size: 10px;
+}
